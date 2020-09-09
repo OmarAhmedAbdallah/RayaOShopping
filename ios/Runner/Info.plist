@@ -28,11 +28,11 @@
 	<string>Main</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Upload image for order payment</string>
+	<string>UploadImageForOrderPayment</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Upload image from camera for order payment</string>
+	<string>UploadImageFromCameraForOrderPayment</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Post videos to complete order</string>
+	<string>PostVideosToCompleteOrder</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
