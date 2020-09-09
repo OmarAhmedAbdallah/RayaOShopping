@@ -27,6 +27,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<string>UploadImageForMakeOrderPayment</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>UploadImageForOrderPayment</string>
 	<key>NSCameraUsageDescription</key>
