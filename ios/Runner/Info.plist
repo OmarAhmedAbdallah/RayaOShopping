@@ -39,8 +39,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIStatusBarStyle</key>
-        <string>UIStatusBarStyleLightContent</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Upload image for order payment</string>
 	<key>NSCameraUsageDescription</key>
