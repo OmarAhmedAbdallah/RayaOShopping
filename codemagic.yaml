@@ -19,6 +19,7 @@ workflows:
     scripts:
       - cd . && flutter packages pub get
       - find . -name "Podfile" -execdir pod install \;
+      - cd . && flutter build ios --release --no-codesign
       - xcode-project use-profiles
       - xcode-project build-ipa --workspace ios/Runner.xcworkspace --scheme Runner
     artifacts:
