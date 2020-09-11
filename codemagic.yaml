@@ -19,7 +19,8 @@ workflows:
     scripts:
       - cd . && flutter packages pub get
       - find . -name "Podfile" -execdir pod install \;
-      - cd . && flutter build ios --profile --no-codesign
+      - xcode-project use-profiles
+      - xcode-project build-ipa --workspace ios/Runner.xcworkspace --scheme Runner
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
